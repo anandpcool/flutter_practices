@@ -5,8 +5,8 @@ import 'package:flutter/material.dart';
   @override
   Widget build(BuildContext context) {
   var days=30;
-
     return Scaffold(
+      backgroundColor: Colors.yellow,
       appBar: AppBar(
         title: Text("My First APP"),
       ),
@@ -18,6 +18,7 @@ import 'package:flutter/material.dart';
         ),
         drawer: Drawer(),
       );
+    
     
   }
 }
